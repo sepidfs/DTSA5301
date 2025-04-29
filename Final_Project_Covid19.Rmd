@@ -202,6 +202,13 @@ cat("Predicted Deaths = 14561.30 + 0.00792 × Cases
 
 **Analysis**: The simple linear regression suggests that every 1000 new cases predict approximately 8 additional deaths.
 
+
+
+**Bias Discussion:** 
+
+Several potential sources of bias should be considered in this analysis. First, cumulative case and death counts may be subject to underreporting, particularly early in the pandemic when testing was limited. Second, delays in reporting cases and deaths could introduce lags and obscure real-time trends. Third, improvements in medical treatments, vaccination campaigns, and changing public health interventions over time likely influenced mortality rates independently of infection rates. These biases could impact the observed relationship between cases and deaths, suggesting that more complex models would be needed to fully capture the true dynamics of the pandemic.
+```
+
 # Conclusion
 
 Through cumulative trends, daily variations, fatality rates, and regression analysis, I deeply examined COVID-19's impacts in California. I found strong evidence that case surges directly translated into mortality burdens, albeit with timing lags and policy influences.
